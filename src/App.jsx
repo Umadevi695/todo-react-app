@@ -52,7 +52,7 @@ function App() {
       <div className="input-section">
         <input
           type="text"
-          placeholder="Enter a todo..."
+          placeholder="Enter a todo...."
           value={text}
           onChange={(e) => setText(e.target.value)}
         />
